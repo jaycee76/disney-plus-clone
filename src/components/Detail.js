@@ -30,7 +30,9 @@ function Detail() {
                 2018 - 7m - Family, Fantasy, Kids, Animation
             </SubTitle>
             <Description>
-                SAMPLE DESCRIPTION ONLYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+                A Chinese mom who's sad when her grown son leaves home gets another chance
+                at motherhood when one of her dumplings springs to life. But she finds that
+                nothing stays cute and small forever.
             </Description>
         </Container>
     )
