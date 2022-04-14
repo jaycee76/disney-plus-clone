@@ -8,7 +8,7 @@ function Detail() {
                 <img src="https://cdn.vox-cdn.com/thumbor/wJ71E7nJ_4Wj0btm5seEnHNJ4Xk=/0x0:4096x2304/1200x800/filters:focal(1973x1175:2627x1829)/cdn.vox-cdn.com/uploads/chorus_image/image/60190709/BO_RGB_s120_22a_cs_pub.pub16.318.0.jpg" />
             </Background>
             <ImageTitle>
-                <img src="https://o.remove.bg/downloads/5975e862-9a86-4271-921a-0e2a9cd474d2/Pixar-Bao-Logo-removebg-preview.png" />
+                <img src="/images/bao.png" />
             </ImageTitle>
             <Controls>
                 <PlayButton>
@@ -92,6 +92,7 @@ const PlayButton = styled.button`
     background: rgb(249, 249, 249);
     border: none;
     letter-spacing: 1.8px;
+    transition: 250ms;
 
     &:hover {
         background: rgb(198, 198, 198);

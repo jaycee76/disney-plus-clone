@@ -1,7 +1,6 @@
 import React from 'react';
 import { Counter } from './features/counter/Counter';
 import './App.css';
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -11,6 +10,8 @@ import {
 import Detail from './components/Detail';
 import Header from './components/Header';
 import Home from './components/Home';
+import Login from './components/Login';
+
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
+          <Route path="login" element={<Login />}/>
           <Route path="detail" element={<Detail />} />
           <Route path="/" element={<Home />} />
         </Routes>
